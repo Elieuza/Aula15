@@ -1,0 +1,10 @@
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\bin\Debug\Aula 15.exe.config
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\bin\Debug\Aula 15.exe
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\bin\Debug\Aula 15.pdb
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\obj\Debug\Aula 15.csprojAssemblyReference.cache
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\obj\Debug\Aula_15.frmAula15.resources
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\obj\Debug\Aula_15.Properties.Resources.resources
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\obj\Debug\Aula 15.csproj.GenerateResource.cache
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\obj\Debug\Aula 15.csproj.CoreCompileInputs.cache
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\obj\Debug\Aula 15.exe
+C:\Users\lilas\source\repos\Aula 15\Aula 15\Aula 15\Aula 15\obj\Debug\Aula 15.pdb
