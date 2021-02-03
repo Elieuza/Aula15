@@ -36,6 +36,7 @@ namespace Aula_15
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnGravar = new System.Windows.Forms.Button();
+            this.lstDados = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // txtNome
@@ -96,11 +97,20 @@ namespace Aula_15
             this.btnGravar.UseVisualStyleBackColor = true;
             this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click);
             // 
+            // lstDados
+            // 
+            this.lstDados.FormattingEnabled = true;
+            this.lstDados.Location = new System.Drawing.Point(24, 192);
+            this.lstDados.Name = "lstDados";
+            this.lstDados.Size = new System.Drawing.Size(441, 121);
+            this.lstDados.TabIndex = 7;
+            // 
             // frmAula15
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(508, 299);
+            this.ClientSize = new System.Drawing.Size(508, 338);
+            this.Controls.Add(this.lstDados);
             this.Controls.Add(this.btnGravar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -124,6 +134,7 @@ namespace Aula_15
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnGravar;
+        private System.Windows.Forms.ListBox lstDados;
     }
 }
 

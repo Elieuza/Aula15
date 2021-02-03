@@ -23,9 +23,9 @@ namespace Aula_15
             try
             {
                 string conectionString = "Data Source =.\\SQLEXPRESS;" +
-                    "Initial Catalog=Aula 15;" +
+                    "Initial Catalog=Aula_15;" +
                     "User ID=sa;" +
-                    "Password=3121";
+                    "Password=alexandre051104";
                 SqlConnection sqlCon = new SqlConnection(conectionString);
                 sqlCon.Open();
                 SqlCommand sqlComd = new SqlCommand(@"INSERT INTO Contatos(Nome,Endereco,Telefone)"+
@@ -34,6 +34,14 @@ namespace Aula_15
                 sqlComd.Parameters.AddWithValue("@endereco", txtEndereco.Text);
                 sqlComd.Parameters.AddWithValue("@telefone", txtTelefone.Text);
                 sqlComd.ExecuteNonQuery();
+
+                SqlCommand cmd = new SqlCommand("Select * from Contatos", sqlCon);
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    lstDados.Items.Add(dr[0] + " - " + dr[1] +"-" + dr[2] + " - "+ dr[3]);
+                }
+
                 sqlCon.Close();
                 MessageBox.Show("Informações Salvas!");
                 txtNome.Text = "";
