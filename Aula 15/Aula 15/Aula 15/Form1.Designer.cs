@@ -120,6 +120,7 @@ namespace Aula_15
             this.Controls.Add(this.txtNome);
             this.Name = "frmAula15";
             this.Text = "Aula 15";
+            this.Load += new System.EventHandler(this.frmAula15_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
